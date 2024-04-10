@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+#titulo{
+color: black;
+align-items:normal;
+} 
+/* Barra de navegacion */
+#outbar{
+  text-align: left;
+}
+  #span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 5px  solid #000;
+}
+#sidebar{  
+position: fixed;
+background: #4a87d6;
+width: 200px; 
+height: 100%;
+left: -230px; ;
+transition:all 250ms linear;
+}
+#sidebar ul li{
+  color:rgba(230, 230, 230, 9) ;
+  text-align: center;
+  padding: 15px 10px;
+  list-style: none;
+  border-bottom:1px solid rgb(0, 0, 0) ;
+}
+#logo {
+  border-radius: 50%;
+  display: block;
+  margin:0 auto;
+}
+#sidebar.toggle-btn {
+position: absolute ;
+left: 230px;
+top: 20px;
+cursor: crosshair;
+}
+#span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 5px  solid #000;
+}
+#sidebar.active {
+  left: 0px ;
+}
+/*productos*/
+#wrap{
+  width: 40px;
+  height: 40px;
+  display:flex;
+ align-items: normal;
+ justify-content: normal;
+ background-image: url(img/embudo\ dieselino.jpg);
+ background-size:contain ;
+}

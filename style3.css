@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#outbar{
+    position: fixed;
+}
+  #span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 5px  solid #000;
+}
+
+#sidebar{  
+position: fixed;
+background: #4a87d6;
+width: 200px; 
+height: 100%;
+left: -230px; ;
+transition:all 250ms linear;
+}
+#sidebar ul li{
+  color:rgba(230, 230, 230, 9) ;
+  text-align: center;
+  padding: 15px 10px;
+  list-style: none;
+  border-bottom:1px solid rgb(0, 0, 0) ;
+}
+#logo {
+  text-align: center;  
+  border-radius: 50px;
+  display: block;
+  margin:0 auto;
+}
+#sidebar.toggle-btn {
+position: absolute ;
+left: 230px;
+top: 20px;
+cursor: pointer;
+box-sizing: border-box;
+}
+#span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 5px  solid #000;
+}
+#sidebar.active {
+  left: 0px ;
+}
+#h2{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 2rem;
+    font: 1em sans-serif;
+    background-color: #4a87d6;
+}
+.card-contenedor{
+width: 750px;
+height: auto;
+background-color: white;
+border-radius: 10px;
+margin-top: 100px;
+box-shadow: 0px 3px 10px rgb(0, 0, 0);
+
+display: flex;
+margin: auto;
+margin-top: 100px;
+}
+.img-contenedor{
+  width: 40%;
+}
+.img-contenedor img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.text-contenedor{
+  width: 60;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+  font-family: Arial, ;
+}
+.title{
+  color: #55005575;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.name{
+  font-size: 15px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+.description{
+  background-color: #4a87d6;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+}
+.text-contenedor.video{
+  text-align: right;
+  display: flex;
+}
+.derechos-de-autor {
+  background-color: #8ba3f3;
+  font-size: 15px;
+  color: #000000;
+  padding: 20px;
+}
+
+footer {
+  min-height: 200px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
